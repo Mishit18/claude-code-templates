@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-11T04:48:53.669129+00:00",
-  "totalJobs": 83,
+  "lastUpdated": "2026-04-12T05:16:03.419055+00:00",
+  "totalJobs": 86,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -8,6 +8,88 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "anth-5179882008",
+      "company": "Anthropic",
+      "position": "Product Operations Manager, Feedback Loops",
+      "location": "San Francisco, CA | New York City, NY",
+      "remote": false,
+      "salary": "",
+      "description": "We're hiring a Product Operations Manager — Feedback Loops to own and continuously improve how customer signal flows into product and research decisions at Anthropic. This is a horizontal, org-wide role — you won't be embedded in a single product team, you'll build the shared operating system for...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5179882008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5179882008",
+      "postedAt": "2026-04-11T22:14:11-04:00",
+      "tags": [
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "hn-47727983",
+      "company": "Deepline",
+      "position": "Software Engineer",
+      "location": "On-site",
+      "remote": false,
+      "salary": "$160k–$220k",
+      "description": "User interfaces are dead. Knowledge workers will exclusively work through agent interfaces like Claude Code/Cowork. We've built the interface layer to enable that. One API that unifies hundreds of data providers, workflows, and data infrastructure to agents like Claude Code. We shipped our mvp last...",
+      "applyUrl": "https://news.ycombinator.com/item?id=47727983",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=47727983",
+      "postedAt": "2026-04-11T06:23:06+00:00",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "Python",
+        "PostgreSQL",
+        "Claude Code"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "rok-remote-machine-learning-engineer-radformation-1131082",
+      "company": "Radformation",
+      "position": "Machine Learning Engineer",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "About Radformation Radformation is transforming the way cancer clinics deliver care. Our innovative software automates and standardizes radiation oncology workflows, enabling clinicians to plan and deliver treatments faster, safer, and more consistently, so patients everywhere can receive the same...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-machine-learning-engineer-radformation-1131082",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-machine-learning-engineer-radformation-1131082",
+      "postedAt": "2026-04-11T00:01:01+00:00",
+      "tags": [
+        "Python",
+        "AWS",
+        "Azure",
+        "Claude Code",
+        "Cursor"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "rok-remote-engineering-manager-hinge-health-1131068",
+      "company": "Hinge Health",
+      "position": "Engineering Manager",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "The Opportunity Hinge Health is hiring an Engineering Manager for our Growth Data Platform (GDP) pod in Bangalore. This is a pivot-point role for a leader who is ready to move beyond traditional software management and lead a team into the era of AI-Native Engineering and ML-Driven Growth. The GDP...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-engineering-manager-hinge-health-1131068",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-engineering-manager-hinge-health-1131068",
+      "postedAt": "2026-04-10T08:00:14+00:00",
+      "tags": [
+        "Rust",
+        "Claude Code",
+        "Cursor",
+        "Rails"
+      ],
+      "companyIcon": ""
+    },
     {
       "id": "anth-5182430008",
       "company": "Anthropic",
@@ -1412,26 +1494,6 @@
         "Claude Code",
         "Copilot",
         "Rails",
-        "Anthropic"
-      ],
-      "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
-      "id": "anth-5096878008",
-      "company": "Anthropic",
-      "position": "Research Product Manager, Labs",
-      "location": "San Francisco, CA | New York City, NY",
-      "remote": false,
-      "salary": "",
-      "description": "As a Research Product Manager for the Labs teams at Anthropic, you will own the ideation and development of new, moonshot products as we advance transformative, safe AI. The Labs team runs Anthropic's most ambitious experiments: new product categories that don't exist yet. The team focuses on...",
-      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5096878008",
-      "source": "Anthropic",
-      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5096878008",
-      "postedAt": "2026-01-26T16:58:37-05:00",
-      "tags": [
-        "Rust",
-        "AWS",
-        "Claude Code",
         "Anthropic"
       ],
       "companyIcon": "https://www.anthropic.com/favicon.ico"
