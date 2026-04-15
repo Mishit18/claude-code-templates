@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T05:15:22.769438+00:00",
+  "lastUpdated": "2026-04-15T05:15:57.515248+00:00",
   "totalJobs": 94,
   "sources": [
     "Anthropic",
@@ -8,6 +8,32 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "rok-remote-sr-software-engineer-b-e-rebuy-inc-1131104",
+      "company": "Rebuy, Inc.",
+      "position": "Sr Software Engineer B E",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "The Company You’ll Join At Rebuy, we’re on a mission to revolutionize shopping with intelligent, personalized experiences that wow customers around the globe. As a fully remote team, we power some of the fastest-growing DTC brands like Aviator Nation, Liquid Death, Magic Spoon, Blenders, Laird...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-sr-software-engineer-b-e-rebuy-inc-1131104",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-sr-software-engineer-b-e-rebuy-inc-1131104",
+      "postedAt": "2026-04-14T00:01:13+00:00",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Rust",
+        "Go",
+        "GCP",
+        "Claude Code",
+        "Cursor",
+        "Vue.js",
+        "Angular",
+        "GraphQL"
+      ],
+      "companyIcon": ""
+    },
     {
       "id": "anth-5186669008",
       "company": "Anthropic",
@@ -974,26 +1000,6 @@
       "companyIcon": "https://www.anthropic.com/favicon.ico"
     },
     {
-      "id": "anth-5152817008",
-      "company": "Anthropic",
-      "position": "Product Designer",
-      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-      "remote": false,
-      "salary": "",
-      "description": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working...",
-      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5152817008",
-      "source": "Anthropic",
-      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5152817008",
-      "postedAt": "2026-03-14T16:42:09-04:00",
-      "tags": [
-        "Rust",
-        "AWS",
-        "Claude Code",
-        "Anthropic"
-      ],
-      "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
       "id": "hn-47360403",
       "company": "Breezy",
       "position": "Product Engineer",
@@ -1081,7 +1087,7 @@
     {
       "id": "anth-5146999008",
       "company": "Anthropic",
-      "position": "Manager of Solutions Architecture, Applied AI (Partnerships)",
+      "position": "Head of International - Partner Solutions Architecture, Applied AI",
       "location": "London, UK",
       "remote": false,
       "salary": "",
