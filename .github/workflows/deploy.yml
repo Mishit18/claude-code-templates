@@ -23,8 +23,20 @@ jobs:
         with:
           node-version: 22
       - name: Deploy www + app.aitmpl.com
-        run: npx vercel --prod --yes --token=${{ secrets.VERCEL_TOKEN }}
+        run: |
+          # Check if Vercel secrets are configured
+          if [ -z "$VERCEL_TOKEN" ] || [ -z "$VERCEL_ORG_ID" ] || [ -z "$VERCEL_PROJECT_ID" ]; then
+            echo "⚠️  Vercel secrets are not configured"
+            echo "ℹ️  Skipping deployment. To enable this workflow:"
+            echo "   1. Go to Settings → Secrets and variables → Actions"
+            echo "   2. Add secrets: VERCEL_TOKEN, VERCEL_ORG_ID, VERCEL_DASHBOARD_PROJECT_ID"
+            echo "   3. Get these from: https://vercel.com/account/tokens"
+            exit 0
+          fi
+          
+          npx vercel --prod --yes --token=$VERCEL_TOKEN
         env:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_DASHBOARD_PROJECT_ID }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
 

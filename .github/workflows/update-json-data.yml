@@ -44,6 +44,16 @@ jobs:
 
       - name: Create .env file with secrets
         run: |
+          # Check if Supabase secrets are configured
+          if [ -z "${{ secrets.SUPABASE_URL }}" ] || [ -z "${{ secrets.SUPABASE_API_KEY }}" ]; then
+            echo "⚠️  Supabase secrets are not configured"
+            echo "ℹ️  Skipping data generation. To enable this workflow:"
+            echo "   1. Go to Settings → Secrets and variables → Actions"
+            echo "   2. Add secrets: SUPABASE_URL and SUPABASE_API_KEY"
+            echo "   3. Get these from: https://app.supabase.com/project/_/settings/api"
+            exit 0
+          fi
+          
           echo "SUPABASE_URL=${{ secrets.SUPABASE_URL }}" >> .env
           echo "SUPABASE_API_KEY=${{ secrets.SUPABASE_API_KEY }}" >> .env
 

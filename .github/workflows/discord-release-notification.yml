@@ -25,6 +25,16 @@ jobs:
           REPO_NAME: ${{ github.repository }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
+          # Check if Discord webhook URL is configured
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "⚠️  DISCORD_WEBHOOK_URL secret is not configured"
+            echo "ℹ️  Skipping Discord notification. To enable release notifications:"
+            echo "   1. Go to Settings → Secrets and variables → Actions"
+            echo "   2. Add a secret named DISCORD_WEBHOOK_URL"
+            echo "   3. Set the value to your Discord webhook URL"
+            exit 0
+          fi
+          
           # Truncate body if too long (Discord limit is 4096 characters for description)
           TRUNCATED_BODY=$(printf '%s' "$RELEASE_BODY" | head -c 2000)
           BODY_LENGTH=$(printf '%s' "$RELEASE_BODY" | wc -c | tr -d ' ')
