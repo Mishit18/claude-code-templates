@@ -20,6 +20,16 @@ jobs:
       - name: Pick random help question and send to Discord
         run: |
           set -euo pipefail
+          
+          # Check if Discord webhook URL is configured
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "⚠️  DISCORD_WEBHOOK_URL_COMMUNITY_HELP secret is not configured"
+            echo "ℹ️  Skipping Discord notification. To enable this workflow:"
+            echo "   1. Go to Settings → Secrets and variables → Actions"
+            echo "   2. Add a secret named DISCORD_WEBHOOK_URL_COMMUNITY_HELP"
+            echo "   3. Set the value to your Discord webhook URL"
+            exit 0
+          fi
 
           # Large pool of help/tutorial questions about Claude Code and Claude Code Templates
           QUESTIONS=$(cat <<'QUESTIONS_EOF'

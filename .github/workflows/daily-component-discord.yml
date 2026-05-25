@@ -20,6 +20,16 @@ jobs:
       - name: Pick random component and send to Discord
         run: |
           set -euo pipefail
+          
+          # Check if Discord webhook URL is configured
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "⚠️  DISCORD_WEBHOOK_URL_DAILY secret is not configured"
+            echo "ℹ️  Skipping Discord notification. To enable this workflow:"
+            echo "   1. Go to Settings → Secrets and variables → Actions"
+            echo "   2. Add a secret named DISCORD_WEBHOOK_URL_DAILY"
+            echo "   3. Set the value to your Discord webhook URL"
+            exit 0
+          fi
 
           # Count total components and pick a random index
           TOTAL=$(jq '[(.agents // []), (.commands // []), (.mcps // []), (.settings // []), (.hooks // [])] | map(length) | add' docs/components.json)
