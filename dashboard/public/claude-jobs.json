@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-11T05:31:32.027561+00:00",
-  "totalJobs": 98,
+  "lastUpdated": "2026-07-12T05:46:52.935601+00:00",
+  "totalJobs": 99,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -1963,6 +1963,26 @@
       "tags": [
         "TypeScript",
         "Python",
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "anth-5096878008",
+      "company": "Anthropic",
+      "position": "Research Product Manager, Labs",
+      "location": "San Francisco, CA | New York City, NY",
+      "remote": false,
+      "salary": "",
+      "description": "As a Research Product Manager for the Labs teams at Anthropic, you will own the ideation and development of new, moonshot products as we advance transformative, safe AI. The Labs team runs Anthropic's most ambitious experiments: new product categories that don't exist yet. The team focuses on...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5096878008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5096878008",
+      "postedAt": "2026-01-26T16:58:37-05:00",
+      "tags": [
         "Rust",
         "AWS",
         "Claude Code",
