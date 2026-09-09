@@ -1,12 +1,33 @@
 {
-  "lastUpdated": "2026-09-08T07:31:16.691200+00:00",
-  "totalJobs": 104,
+  "lastUpdated": "2026-09-09T07:39:18.855146+00:00",
+  "totalJobs": 106,
   "sources": [
     "Anthropic",
     "HackerNews",
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "hn-49615435",
+      "company": "ALBERT",
+      "position": "Software Engineer",
+      "location": "REMOTE ALMOST ANYWHERE IN THE WORLD",
+      "remote": true,
+      "salary": "$750k",
+      "description": "We're a consumer fintech with 25M+ users who trust us to budget, save, invest, and bank in one place. Profitable for 4+ years. And as of today, our average employee tenure is 3.6 years, a number you almost never see in startup tech, and one we're quietly proud of. People stay because the work is...",
+      "applyUrl": "https://news.ycombinator.com/item?id=49615435",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49615435",
+      "postedAt": "2026-09-08T19:19:18+00:00",
+      "tags": [
+        "React",
+        "Python",
+        "Rust",
+        "PostgreSQL",
+        "React Native"
+      ],
+      "companyIcon": ""
+    },
     {
       "id": "hn-49598051",
       "company": "BOSS-IQ",
@@ -625,6 +646,29 @@
         "Claude Code"
       ],
       "companyIcon": ""
+    },
+    {
+      "id": "anth-5391151008",
+      "company": "Anthropic",
+      "position": "AI Operations Engineer, Partnerships",
+      "location": "San Francisco, CA",
+      "remote": false,
+      "salary": "",
+      "description": "Our Partner Experience team is building an AI-native operating model. We already run a growing set of partner-facing systems: a partner portal, CRM workflows, enablement and certification platforms, and the trackers that connect them. The systems lead on our team owns that foundation — the portal,...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5391151008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5391151008",
+      "postedAt": "2026-08-14T18:07:17-04:00",
+      "tags": [
+        "JavaScript",
+        "Python",
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Rails",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
     },
     {
       "id": "wwr-toptal-python-backend-development-talent-with-rag-and-agentic-ai-experience",
