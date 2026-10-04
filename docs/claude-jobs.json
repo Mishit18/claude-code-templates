@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T08:41:40.014779+00:00",
+  "lastUpdated": "2026-10-04T08:56:18.499885+00:00",
   "totalJobs": 85,
   "sources": [
     "Anthropic",
@@ -8,6 +8,29 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "hn-49946276",
+      "company": "Mattermost",
+      "position": "Senior Full Stack Engineer",
+      "location": "Remote (US and Canada)",
+      "remote": true,
+      "salary": "$142,723 - $172,723",
+      "description": "Mattermost ( https://mattermost.com ) is an open-core collaboration and workflow automation platform for air-gapped, on-prem and private clouds. Our customers are in defense, intelligence, security and critical infrastructure, including the USAF and NASA. Y Combinator led our Series B, their...",
+      "applyUrl": "https://news.ycombinator.com/item?id=49946276",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49946276",
+      "postedAt": "2026-10-03T17:52:07+00:00",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Go",
+        "PostgreSQL",
+        "Claude Code",
+        "Cursor",
+        "Redis"
+      ],
+      "companyIcon": ""
+    },
     {
       "id": "hn-49939260",
       "company": "Privy.pro",
@@ -220,26 +243,6 @@
       "source": "Anthropic",
       "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5428014008",
       "postedAt": "2026-09-25T10:47:31-04:00",
-      "tags": [
-        "Rust",
-        "AWS",
-        "Claude Code",
-        "Anthropic"
-      ],
-      "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
-      "id": "anth-5382518008",
-      "company": "Anthropic",
-      "position": "Applied AI Architect, Public Sector ",
-      "location": "Washington, DC",
-      "remote": false,
-      "salary": "",
-      "description": "As an Applied AI Solutions Architect supporting a dedicated national security mission program, you will be the customer's trusted technical advisor — helping them understand the value of Claude and how to successfully integrate and deploy it into their technology stack. You'll combine deep...",
-      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5382518008",
-      "source": "Anthropic",
-      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5382518008",
-      "postedAt": "2026-09-23T13:17:43-04:00",
       "tags": [
         "Rust",
         "AWS",
